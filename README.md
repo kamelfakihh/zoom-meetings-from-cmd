@@ -4,5 +4,4 @@ a simple GUI application made using tkinter library to open zoom meetings links 
 
 to use the app go to : (file > set zoom directory)  to choose where is Zoom.exe is located at
 
-Screenshot  :
-[alt text](https://github.com/kamelfakihh/zoom-meetings-from-cmd/blob/main/screenshot.png?raw=true)
+[screenshot](https://github.com/kamelfakihh/zoom-meetings-from-cmd/blob/main/screenshot.png?raw=true)
