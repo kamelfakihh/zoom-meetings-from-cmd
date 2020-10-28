@@ -4,7 +4,7 @@ import tkinter
 from tkinter import END, filedialog, StringVar
 import json
 
-zoom_dir = None
+zoom_dir = ""
 meetings = []
 
 # save meetings to a json
@@ -173,7 +173,7 @@ try :
 except :
     pass
 
-if not zoom_dir :
+if  len(zoom_dir) == 0 :
     msg.set('please set Zoom.exe directory : file > change zoom directory')
 else :
     msg.set('double click a meeting to start')
